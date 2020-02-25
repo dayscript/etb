@@ -1,0 +1,345 @@
+body {
+	background: $light-gray;
+}
+
+.padding-bottom{
+	margin-bottom: 60px;
+}
+
+.padding-top{
+	margin-top: 60px;
+}
+
+.l-main{
+	background-color: #459dd0;
+	margin-bottom: 4rem;
+	position: relative;
+}
+
+#block-logo {
+	margin-top: 0.5rem;
+}
+
+#block-navegacionprincipal{
+	margin-top: 1.5rem;
+	li{
+		a{
+			font-size: 1.5rem;
+			padding: 1rem 2.5rem;
+			font-weight: 500;
+		}
+		a.is-active{
+			background: $blue;
+			color: $white;
+		}
+	}
+}
+
+#block-lineaexclusivadeventas{
+	background-color: #eb6624;
+    padding: 1rem;
+    color: $white;
+    p {
+    	margin: 0;
+    	line-height: 1em;
+	    strong{
+	    	font-size: 1.7rem;
+	    	line-height: 1.2em;
+	    }
+	    a {
+	    	color: $white;
+	    }
+    }
+}
+
+#block-bannerpack{
+	position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+.fixed-block{
+	position: fixed;
+	top: 0;
+}
+
+#block-tellamamos{
+	background-color: #1f4b7b;
+	border-radius: 1rem;
+	padding: 1.2rem;
+	color: $white;
+	max-width: 370px;
+    width: 100%;
+    margin-bottom: 2rem;
+/* 	position: fixed;
+    width: 369.98px;
+    z-index: 1; */
+    h2 {
+    	color: $white;
+    }
+    #edit-terminos-y-condiciones{
+    	margin-bottom: 1rem;
+    	a{
+    		color: $white;
+    		&:hover{
+    			color: #eb6624;
+    		}
+    	}
+    }
+	#modalClose{
+		text-indent: -10000px;
+		display: inline-block;
+		&:before{
+			background-image: url(/themes/custom/subthemeetb/images/icon/cerrar.png);
+			background-size: 27px;
+			background-repeat: no-repeat;
+			content: "";
+			width: 36px;
+			height: 25px;
+			top: 10px;
+			right: 0px;
+			position: absolute;
+		}
+	}
+
+}
+
+.off-canvas-content.background{
+		&:before{
+		content: "";
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		background: rgba(0,0,0,0.5);
+	}
+}
+
+.background-tellamamos{
+    position: fixed;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: 392.84px;
+    z-index: 2;
+    margin: 0 auto;
+    h2{
+    	position: relative;
+    }
+/* 	&:before{
+		content: "";
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.5);
+	} */
+}
+
+.field-name-field-formulario .field-label{
+	display: none;
+}
+
+#webform-submission-te-llamamos-block-content-6-add-form{
+	label{
+		color: $white;
+		margin: 1rem 0;
+	}
+	input{
+		border-radius: .5rem;
+	}
+	label.option{
+		width: 85%;
+	}
+
+	#edit-ingresa-tu-telefono-de-contacto-movil-o-fijo {
+		opacity: 0.4;
+		transition: all ease-in-out 0.3s;
+	}
+	#edit-ingresa-tu-telefono-de-contacto-movil-o-fijo:focus {
+		font-size: 2.5rem;
+		opacity: 1;
+		padding: 1rem;
+		height: auto;
+	}
+	#edit-actions-submit{
+		background-color: #eb6624;
+		border: solid 2px;
+		border-color: white;
+		color: $white;
+	}
+}
+
+#webform-submission-dejanos-tus-datos-para-llamarte-block-content-2-add-form{
+	label{
+		color: $white;
+	}
+	input{
+		border-radius: .5rem;
+	}
+	.form-item-terminos-condiciones{
+		a{
+			color: $white;
+			&:hover{
+				color: #1f4b7b;
+			}
+		}
+	}
+	#edit-actions-submit--2{
+		background-color: #eb6624;
+		border: solid 2px;
+		border-color: white;
+		color: $white;
+		padding: 1rem 3rem;
+    	margin: 0;
+	}
+}
+
+#footer-first{
+	background-color: #449cd0;
+	color: $white;
+}
+
+#footer-last{
+	background-color: #3b87b4;
+	color: $white;
+	#block-footerlast{
+		padding: 1rem;
+    	text-align: center;
+		a{
+			color: $white;
+			&:hover{
+				color: #1f4b7b;
+			}
+		}
+	}
+}
+
+// Planes hogar
+.planes{
+	header.header-page {
+		background: $white;
+		border-bottom: solid 6px $blue;
+	}
+	header {
+		h2{
+			color: $blue-dark;
+			font-size: 2.2rem;
+			line-height: 1.2em;
+			margin-top: 1rem;
+			padding-left: .9375rem;
+		}
+	}
+	.views-exposed-form {
+		margin-bottom: 1rem;
+		select {
+			border: none;
+			border-radius: 8px;
+		}
+	}
+	#views-exposed-form-planes-block-1,
+	#views-exposed-form-planes-page-1,
+	#views-exposed-form-planes-page-2{
+		padding-right: .9375rem;
+		padding-left: .9375rem;
+		display: inline-block;
+		width: 100%;
+		.form-item-field-estrato-target-id,
+		.form-item-field-oferta-target-id,
+		.form-item-field-pbx-target-id{
+			padding-right: 0.7rem;
+			display: inline-block;
+			float: left;
+			width: 33.33333%;
+			.shs-widget-container{
+				width: 100%;
+			}
+		}
+	}
+	.plans-card{
+		text-align: center;
+		min-height: 370px;
+		border-radius: 20px;
+		margin-bottom: 2rem;
+		background: $white;
+		box-shadow: 0px 8px 8px -4px rgba(0,0,0,0.1);
+		.speed{
+			padding: 0.5rem 1rem;
+			background-color: #eb6624;
+			color: white;
+			font-size: 2em;
+			font-weight: 600;
+			border-radius: 20px 20px 0 0;
+			margin-bottom: 2rem;
+		}
+		.price{
+			margin: .5rem 0 0;
+			color: #459dd0;
+			font-weight: 600;
+    		font-size: 2em;
+    		color: $blue-dark;
+		}
+		.type{
+			margin: .5rem 0 0;
+		}
+		.estrato{
+			margin: .5rem 0 0;
+		}
+		.discount{
+			margin: .5rem 0 0;
+			font-weight: 600;
+			font-size: 1.2em;
+			line-height: 1em;
+			color: #555;
+		}
+		.tyc{
+			margin: .5rem 0 1rem;
+			font-size: 0.8rem;
+			display: inline-block;
+			width: 100%;
+		}
+		.pidelo{
+			background-color: #eb6624;
+			margin: 1rem 0 0.5rem;
+			border-radius: 8px;
+			padding: 0.8rem 1.6rem;
+			font-size: 1.1rem;
+		}
+	}
+	.pager {
+		float: left;
+		width: 100%;
+		text-align: center;
+		.is-active {
+			a {
+				color: $white;
+			}
+		}
+	}
+}
+
+#block-dejanostusdatosparallamarte {
+	h2 {
+		color: $white;
+	}
+}
+
+@media only screen and (min-width: 601px) {
+
+	.fix-top {
+		position: fixed;
+		top: 2rem;
+	}
+
+	.fix-bottom {
+		position: absolute;
+		top: auto;
+		bottom: 22rem;
+	}
+
+}
