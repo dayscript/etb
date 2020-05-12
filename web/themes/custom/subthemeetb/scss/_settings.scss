@@ -77,11 +77,11 @@ $foundation-palette: (
 );
 $light-gray: #EDEDED;
 $medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
+$dark-gray: #808285;
 $black: #0a0a0a;
 $white: #fefefe;
-$blue: #459DD0;
-$blue-dark: #1692BE;
+$blue: #009bcf;
+$blue-dark: #0080AB;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'Roboto', sans-serif;
@@ -100,6 +100,7 @@ $global-prototype-breakpoints: false;
 $global-button-cursor: auto;
 $global-color-pick-contrast-tolerance: 0;
 $print-transparent-backgrounds: true;
+
 
 @include add-foundation-colors;
 
